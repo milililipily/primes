@@ -82,6 +82,9 @@ width: 100%;
 }
 /*fin menú 3*/
 /*Portfolio*/
+.porta-menu{
+	background-color: grey;
+}
 .porta{
 	text-align: center;
 	padding-top: 20px;
@@ -89,6 +92,7 @@ width: 100%;
 .porta ul li{
 	list-style: none;
 	text-decoration: none;
+	background: white;
 }
 .porta img{
 	padding-top: 10px;
