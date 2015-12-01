@@ -82,8 +82,15 @@ width: 100%;
 }
 /*fin menú 3*/
 /*Portfolio*/
+.porta{
+	text-align: center;
+	padding-top: 20px;
+}
 .porta ul li{
 	list-style: none;
 	text-decoration: none;
+}
+.porta img{
+	padding-top: 10px;
 }
 /*fin del portafolio*/
