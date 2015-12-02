@@ -120,10 +120,13 @@ width: 100%;
 .fondo2{
 background: url("../img/background/city.jpg") no-repeat center center;
 background-size: 100% auto;
-text-align: center;
-padding:130px 100px ;/*no es necesaria que le ponga la unidad*/
 height: 400px;
-color:#FFFFFF;
+color:#FAFAFA;
+text-align: center;
+padding:130px 100px;
+}
+.letra{ 
+padding:130px 100px;/*no es necesaria que le ponga la unidad*/
 }
 /*fin fondo2*/
 
