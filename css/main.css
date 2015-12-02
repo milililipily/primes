@@ -2,16 +2,18 @@
 outline: 1px solid blue;
 }
 /*inicio Menu*/
+
 .list-nav{
 	text-align: right;
 }
+
 .list-nav li{
 	display: inline-block;
 }
 .list-nav a{
 	display: block;
 	padding: 5px 20px;
-	color: #555555;
+	color: #FAFAFA;
 	text-decoration: none;
 	font-family: "Oswald", Arial,Sans-serif;
 	/*text-transform: uppercase; esto es para poner en mayuscula si se escribio en minúscula*/ 
@@ -19,19 +21,27 @@ outline: 1px solid blue;
 }
 .list-nav a:hover{
 	text-decoration: none;
+	color:;
 	background: #ececec;
 	transform: scale(1.3);/*con esto el menu cambia de tamaño*/
+}
+.overlay{
+	background: rgba(0, 0, 0, .5); 
+   	height: 100%;
 }
 /*Fin Menú*/
 
 /*Contenido del header*/
 .header-content{
-	background: url("../img/background/hero.jpg") no-repeat center center;
+	background: url("../img/background/hero.jpg") no-repeat;
 	background-size: 100% auto;
-	padding-bottom: 40%;
+	height: 680px;
+	color:#FAFAFA;
+}
+
+.centro{
 	text-align: center;
 	padding:180px 100px ;/*no es necesaria que le ponga la unidad*/
-	height: 600px;
 	color:#FFFFFF;
 }
 /*Fin del contenido del header*/
@@ -174,5 +184,22 @@ margin-top: 20px;
 .addres span{
 	padding-right: 20px;
 }
-
 /*end contact us*/
+/*follow*/
+.follow{
+	margin:50px 0;
+}
+.follow p{
+	padding: 20px 150px
+}
+.follow i{
+	font-size: 30px;
+	margin:5px;
+}
+/*end follow*/
+footer{
+	background-color:#2D323A;
+	color: #C9D1D6;
+	height: 100px;
+	padding-top: 40px;
+}
