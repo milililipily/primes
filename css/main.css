@@ -1,8 +1,7 @@
-/*{
+*{
 outline: 1px solid blue;
-}*/
+}
 /*inicio Menu*/
-
 .list-nav{
 	text-align: right;
 }
@@ -118,21 +117,51 @@ width: 100%;
 /*fin del portafolio*/
 /*inicio fondo2*/
 .fondo2{
-background: url("../img/background/city.jpg") no-repeat center center;
+background: url("../img/background/city.jpg") no-repeat;
 background-size: 100% auto;
 height: 400px;
 color:#FAFAFA;
-text-align: center;
-padding:130px 100px;
 }
 .letra{ 
-padding:130px 100px;/*no es necesaria que le ponga la unidad*/
-}
+text-align: center;
+padding:130px 100px;
+}/*no es necesaria que le ponga la unidad*/
 /*fin fondo2*/
 
 /* start package*/
 .package{
 	background-color: #f4f4f4;
+	padding: 15px 0 60px 0;
+}
+.package .columna{
+	background-color: #fff;
+	padding: 20px 10px;
+	color: #C6C6C6;
+	font-size: 15px;
+	font-weight: bold;
+}
+.package .columna .panel-heading{
+	padding: 20px;
+	font-size: 30px;
+	background-color: #323A45;
+	color: #fff;
+	font-weight: normal;
+}
+.package .columna .panel-body{
+	padding: 25px 0;
+	background-color: #F0F0F0;
+	color: #737373;
+	font-weight: bold;
+	font-size: 20px;
+}
+.package .columna.active .panel-heading{
+	background-color: #0CC0BF;
+}
+.package .columna .panel-body .moneda{
+	font-size: 30px;
+}
+.list-group-item{
+	padding: 15px;
 }
 /*end package*/
 /*customer*/
