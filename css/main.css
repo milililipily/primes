@@ -1,6 +1,6 @@
-*{
+/*{
 outline: 1px solid blue;
-}
+}*/
 /*inicio Menu*/
 .list-nav{
 	text-align: right;
@@ -132,6 +132,7 @@ padding:130px 100px;
 .package{
 	background-color: #f4f4f4;
 	padding: 15px 0 60px 0;
+	text-align: center;
 }
 .package .columna{
 	background-color: #fff;
